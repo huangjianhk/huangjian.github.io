@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>help</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h2 id="toc_0">三四线城市的房价还能涨多久？</h2>
+
+<p>黄健</p>
+
+<p>2018年6月26日</p>
+
+<p>今天股市又大跌了一把。周末央行定向降准，似乎没有产生多少直接的好效果。定向降准，粗糙的理解，基本上就是定向的向一些行业和领域放水，让他们有更多的钱可以流动起来可以用起来，说专业点就是定向释放流动性。按理对于股市来说这是好事，但是股市没有高兴起来，因为还有一个新闻《国开行棚改项目审批权上收》，国开行的人说：</p>
+
+<p><em>本来我们大部分中长期项目审批权限就在总行，而且要看金额。现在是说棚改项目的审批权全部先上收，新项目基本暂停审批，但已经在放款的存量项目还是照常。至于未来还批不批，现在还不知道。</em></p>
+
+<p>注意这里面的几个关键点，一是棚改项目审批权全部上收，二是新项目基本暂停审批了，三是未来怎样不知道。</p>
+
+<p>简单说下这几个意思的背后理解。我们主要说三四线城市。棚改就是棚户区改造，广泛的讲就是城镇里面居住条件比较差的老房子、棚户等等搞改造，让这些人住新房子，那么改造要钱，钱谁出，政府出，因为是政府推动搞改造的。政府搞棚户区改造，一方面是政绩要求，另一方也是城市发展需要用地，把那些地腾出来，才有更好的发展。</p>
+
+<p>那么政府搞棚户区改造，要钱啊，需要给原来在棚户区的那些人钱或者房子，让他们搬到更好的房子里住。以前搞改造，是给房子，集中安置，但是这样搞比较麻烦，流程比较长，现在搞简单点的做法，就是直接给钱。你这个老房子拆掉，补偿钱给你，你自己拿着钱再去买房子住，或者你不买房子拿着去旅游也可以，自己定。</p>
+
+<p>改一个区域需要很多钱，政府做事情，不会说像穷老百姓，想想自己手里有多少钱就做多少事儿，那这样是做不出政绩的，所以地方政府会想办法找钱来做这个事情。钱从哪儿找？找银行是最好办的。这些钱最终还是来自央行，央行的钱通过国开行等银行机构，流到政府手里，政府通过搞棚改，把其中部分钱给老百姓，老百姓再拿钱去买房子，钱到开发商手里，开发商把钱拿去还买地的时候贷的款，地是从政府手里买的啊，于是钱又回到了政府手里。</p>
+
+<p>现在问题就是，要是央行收紧点，减少流向政府的钱，也就是上面新闻里表达的意思——政府不能那么容易的从银行手里弄到钱来搞棚改了。这个时候，流入到棚改中的老百姓的手里的钱也会减少了，那么地方城市的房价还能持续多久呢？</p>
+
+<p>你肯定要说，三四线城市的房子，又不是只有棚改的人才会买！是的，三四线城市的房子，大致上看，买的人就这几类：</p>
+
+<p>一，本地居住的人，简单说就是在这个城市里生活的人，他们的需求基本上就是基本需求。</p>
+
+<p>二，外地来投机的，例如炒房团。</p>
+
+<p>三，城市周边乡镇的人。</p>
+
+<p>第一类里面，只要能买得起的人早就在之前就买了，他们不用等到这次三四线城市房价暴涨才来买，因为他们就在本城市生活，没有其他地方可以住，只要有点钱就买了。这部分人里面，就剩下棚改的这些人还没买，因为没钱买不起，之前居住条件差，买的意愿又很强烈，所以一旦有点钱就马上会去买新房。</p>
+
+<p>第二类，会存在，但是过去一两年各种政府政策都在打击炒房的这部分人，所以实际上他们炒起来有点难度，而且现在炒的话也是纯短期炒，快速炒，纯投机。</p>
+
+<p>第三类，是重点要分析的。周边乡镇的人，两三年之前，他们都还是在中国的房地产市场之外的人，因为他们多少有个小房子，在镇上或者在农村里，至少是有住的地方，同时呢年轻人在外面打工，把钱带回来消费，生活还是可以的。但是最近几年发生了两个显著的新变化，导致这个群体的行为也发生了巨大变化。</p>
+
+<p>第一个变化是年轻人逐渐离开农村，不再想着在农村继续待下去，因为在农村的确生活条件和发展都不如在城市里，农业里也没有多少机会了，所以现在到农村看到的各种抛荒，原来居住在深山里的人都在往外搬，能搬到城里的搬到城里，不能搬到城里的就搬到镇上，不能搬到镇上的就搬到马路边上，总之不住山里了。所以这部分人里其实一直在酝酿购房意愿。何况，中央政府也是一直在想办法推进城市化，大势如此，他们中一部分人或者说大部分人迟早的城里去购房。</p>
+
+<p>这部分人中，有能力在一二线城市买房的，一定会在一二线城市买，因为不仅住，还能落户，还能附带很多良好预期，更重要的是能投资增值。这些人在一二线城市买的时候，能不把父母和岳父母掏一遍吗？必然的，不然这些人很难凑够在一二线城市的首付。</p>
+
+<p>另外一部分，没有办法在一二线城市买的，就只好在三四线甚至五线县城里买。这部分人花的钱，一部分来自自己过去打工和做生意攒的钱，另外一部分就是父母和岳父母甚至把亲戚都借了一遍后凑起来的钱，这就是相当于把一大家子的钱都掏空了一遍。这是很可怕的。</p>
+
+<p>第二个变化就是伴随城镇化大势，各种较大的地产商，也搞下沉，深入到三四五线城市去搞开发。他们有钱有招，炒起来快得很，一个四线小城市的房价，他们几个月能炒高一个档次，因为他们可以动用的资源多，会玩的套路也多。</p>
+
+<p>炒的热度只要一起来，上面说的那部分要进城的乡镇年轻人，是坐不住的，他们马上掏空一大家子的积蓄进城买房。要知道越是普通老百姓越是喜欢追涨杀跌。</p>
+
+<p>所以，我的看法就是，这次三四线城市甚至五线小县城房价暴涨，基本上可以说是最后的狂欢，狂欢的动力源自三种力量：1，城市里面的棚改拿钱去买房；2，乡镇上的人掏空了三四个家庭的积蓄跑步进城买房；3，地产商和投机者的狂炒。</p>
+
+<p>如果是有能力挣到很多钱的，也不会在老旧城区棚户区居住了，这部分人掏一遍就基本上完全掏空了。而乡镇上的人，已经被去一二线买房的年轻人狠狠的掏过一遍了，现在又掏一遍，基本上也掏空了。
+后果是什么呢？</p>
+
+<p>如果三四线城市的房价出现下跌，那么银行必然要求买房的人增加抵押，或者提前把贷款还清。这些本来没有多少钱的人他们掏空了一大家子的未来的人，怎会还有钱去还银行贷款呢？更何况房价跌了，房子贬值了，谁还愿意还银行钱呢？一定是宁可违约也不还钱。这部分人和一二线中产阶级不同，他们对所谓的银行信用什么的关心程度没那么高，你要把我放你们银行黑名单就放呗，你乐意就行，但我肯定是不还钱的。</p>
+
+<p>你说，银行会怎么办？无非两个路子走，一个是把房子收了，再卖掉，银行不可能自己手里拿着这些房子，太危险；另外一个路子就是找政府，找政府兜底接盘。七十多年来，老百姓干什么都想着先干着，哪怕玩大了，政府也会兜底的，大不了我们上街去。可是这届政府，你看有打算给你兜底的样子吗？</p>
+
+<p>现在三四线城市就这么热，等到上面两种人都买好了，还有谁来继续买呢？总不能希望一二线城市的青年再回老家买房吧？即使是容不下肉身的一二线青年人，也不会去三四线城市买房生活，那里没有灵魂安放之所，这是城市化的规律。</p>
+
+<p>三四线城市的房价，是持续不了多久的。就等上面说的棚改的和乡镇的两拨人全部进场了，等他们进场完毕，房价必然快速下行。而这两部分人，正是因为没有钱，才买在了最高点。那时，将惨不忍睹。
+所以说，现在央行把钱收紧，棚改减缓，客观上是让乡镇的人更先进场了。棚改的人，晚点进场，买最高点。当然如果棚改完全停了，他们也算躲过一劫。</p>
+
+<p>有句话说，上帝要让人灭亡，必先让其疯狂。</p>
+
+<p>这一两年里，中央政府不断的出各种政策，限购限售限贷款，然后收紧钱袋子，各个行业去杠杆，叫大家不要玩太大，同时又担心玩死了，暗搓搓的出手再向市场投放点钱，典型的你爹治你这个熊孩子的思路：抽你三巴掌然后给颗糖叫你长记性又别哭。希望有效，要不然熊孩子疯过头了是会连爹都不放眼里的。</p>
+
+
+
+
+</body>
+
+</html>
