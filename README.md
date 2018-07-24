@@ -1,2 +1,2 @@
-# whamjane.github.io
-whamjane's blog at github
+website for huangjian
+link whamjane.github.io
